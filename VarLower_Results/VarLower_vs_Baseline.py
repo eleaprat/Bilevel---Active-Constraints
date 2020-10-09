@@ -232,4 +232,4 @@ for i, artist in enumerate(ax.artists):
         line.set_mfc(col)
         line.set_mec(col)
         
-plt.savefig('Boxplot_VarLower_{}_{}.jpg'.format(n_bus,mode), format='jpg', dpi=1200)
+plt.savefig('Boxplot_VarLower_{}_{}.jpg'.format(n_bus,mode), format='jpg', dpi=200)
