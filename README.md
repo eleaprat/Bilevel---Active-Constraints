@@ -5,7 +5,7 @@ The code is organized in folders per proposed method and stage: database (DB) cr
 ## Case_from_Matpower
 This folder contains the example of a test case in the Matpower format.
   * **case9_blv.m**: Matpower case file for the 9 bus system used as example in this repository.
-  * **Matpower_case_conversion.m**: Run this first in order to create the csv files that will be used in Python. The file name (line 4) has to be changed to match the case file name, here 'case9_blv'.
+  * **Matpower_case_conversion.m**: Run this first in order to create the csv files that will be used in Python. The file name (line 4) has to be changed to match the case file name, here 'case9_blv'. The number of bus has to be modified too (line 5).
   * **baseMVA_9bus.csv, branch_9bus.csv, bus_9bus.csv, gen_9bus.csv, gencost_9bus.csv**: Case files in csv for use in Python. Those have to be included to the working directory.
 
 ## AllSets
@@ -72,7 +72,7 @@ This folder contains the code to generate the decision tree for a given database
  * **Bilevel_BigM.py**: Formulation of the bilevel problem with KKTs and big-M. Solving with Gurobi. Called by 'BestSet_vs_Baseline.py'.
   * **DCOPF.py**: DCOPF formulation and solving with Gurobi (feasibility check). Called by 'BestSet_vs_Baseline.py'.
   
-  ## AllSets
+  ## VarLower
 ### VarLower_DB
 This folder contains the code to generate a database of points for the VarLower method.
  * Necessary input: Case files in csv (not included here but available in the folder '0_Case_from_Matpower').
