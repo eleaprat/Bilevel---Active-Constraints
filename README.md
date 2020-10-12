@@ -108,7 +108,7 @@ This folder contains the code to generate the decision trees for a given databas
 The environment used to develop this code is: Python (3.7.7, miniconda 4.7.12). (pickle, time, random, os.path, csv, ast, math
 The notable additional packages are:
 * Scikit-learn (0.22.1)
-* [Gurobi] (https://www.gurobi.com/) (requires a license)
+* [Gurobi](https://www.gurobi.com/) (requires a license)
 * Pandas (1.0.5)
 * Numpy (1.19.1)
 * Matplotlib (3.2.2)
