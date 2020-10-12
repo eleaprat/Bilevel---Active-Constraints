@@ -104,3 +104,9 @@ This folder contains the code to generate the decision trees for a given databas
  * **Bilevel_BigM.py**: Formulation of the bilevel problem with KKTs and big-M. Solving with Gurobi. Called by 'VarLower_vs_Baseline.py'.
   * **DCOPF.py**: DCOPF formulation and solving with Gurobi (feasibility check). Called by 'VarLower_vs_Baseline.py'.
  
+## Environment
+The environment used to develop this code is: Python (3.7.7, miniconda 4.7.12).
+The notable additional packages are:
+* Scikit-learn (0.22.1)
+* [Gurobi] (https://www.gurobi.com/) (requires a license)
+For the other packages, refer to the list of imported packages at the beginning of each code.
