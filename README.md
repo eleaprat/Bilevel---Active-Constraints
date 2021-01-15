@@ -105,7 +105,7 @@ This folder contains the code to generate the decision trees for a given databas
   * **DCOPF.py**: DCOPF formulation and solving with Gurobi (feasibility check). Called by 'VarLower_vs_Baseline.py'.
  
 ## Environment
-The environment used to develop this code is: Python (3.7.7, miniconda 4.7.12)(includes pickle, time, random, os.path, csv, ast, math).
+The environment used to develop this code is: Python (3.7.7, miniconda 4.7.12) (includes pickle, time, random, os.path, csv, ast, math).
 
 The notable additional packages are:
 * Scikit-learn (0.22.1)
@@ -114,4 +114,5 @@ The notable additional packages are:
 * Numpy (1.19.1)
 * Matplotlib (3.2.2)
 * Seaborn (0.10.1)
+
 For the other packages, refer to the list of imported packages at the beginning of each code file.
